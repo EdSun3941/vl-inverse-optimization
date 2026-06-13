@@ -6,10 +6,10 @@ the sequential-update ablation reported in the paper.
 
 ## Archived release
 
-The reproducibility package is archived as GitHub release `v1.0.1`.
+The reproducibility package is archived as GitHub release `v1.0.2`.
 
 Release page:
-https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.1
+https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.2
 
 ## Citation and license
 
