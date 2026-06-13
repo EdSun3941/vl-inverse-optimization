@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the archived release and the associated manuscript."
 title: "Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation: Reproducibility Package"
 type: software
-version: 1.0.2
+version: 1.0.3
 date-released: 2026-06-13
 url: "https://github.com/EdSun3941/vl-inverse-optimization"
-doi: 10.5281/zenodo.20680512
+doi: 10.5281/zenodo.20680511
 license: CC-BY-4.0
 authors:
   - family-names: Lin

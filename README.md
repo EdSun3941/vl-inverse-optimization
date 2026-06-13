@@ -6,13 +6,10 @@ the sequential-update ablation reported in the paper.
 
 ## Archived release
 
-The reproducibility package is archived as GitHub release `v1.0.2`.
+The reproducibility package is archived as GitHub release `v1.0.3`.
 
 Release page:
-https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.2
-
-Zenodo version DOI:
-https://doi.org/10.5281/zenodo.20680512
+https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.3
 
 Zenodo concept DOI:
 https://doi.org/10.5281/zenodo.20680511
@@ -33,10 +30,12 @@ included UCI datasets are redistributed under their source CC BY 4.0 licenses.
 | `nnlite.py` | Pure-NumPy MLP and Adam optimizer with input-gradient support for projected VL inverse optimization. |
 | `prepare_data.py` | Downloads the two CSV files from the UCI Machine Learning Repository and validates them against SHA-256 checksums of the copies used in the reported experiments. |
 | `vl_concrete_np.py` | Constrained concrete mixture recommendation, five scenarios with 20 restarts each. |
+| `vl_concrete_gap.py` | Sparse-region constrained scenario (age = 3 days, target 45 MPa). No measured age-3 record exceeds 41.6 MPa, so constrained retrieval is capped below target while projected VL reaches it with verifier support. Reuses the same surrogate and verifier. |
 | `vl_energy_np.py` | Multi-objective building design with mixed continuous and discrete feasible sets, four scenarios with 20 restarts each. |
 | `vl_robotic_benchmark.py` | Robotic-arm inverse-kinematics benchmark over 200 targets. |
 | `vl_sequential_ablation.py` | Sequential, joint, and stable-broadcast update-order ablation on a controlled VARX system. |
 | `concrete_results.json` | Pre-computed results for the concrete experiment. |
+| `concrete_gap_results.json` | Pre-computed results for the sparse-region scenario: unconstrained k-NN, the constrained k-NN cap, and projected VL with restart success rates. |
 | `energy_results.json` | Pre-computed results for the energy experiment. |
 | `robotic_benchmark_results.json` | Pre-computed robotic benchmark results, including per-target re-simulation errors, exact failure counts, worst-case errors, and out-of-domain counts. |
 | `sequential_ablation_results.json` | Pre-computed sequential ablation results. |
@@ -95,6 +94,7 @@ Run each script from this directory:
 cd real_data_experiments
 
 python vl_concrete_np.py
+python vl_concrete_gap.py
 python vl_energy_np.py
 python vl_robotic_benchmark.py
 python vl_sequential_ablation.py
@@ -105,6 +105,7 @@ Approximate runtimes on a single CPU core are:
 | Script | Approximate runtime |
 |---|---:|
 | `vl_concrete_np.py` | 8 seconds |
+| `vl_concrete_gap.py` | 5 seconds |
 | `vl_energy_np.py` | 12 seconds |
 | `vl_robotic_benchmark.py` | 60 seconds |
 | `vl_sequential_ablation.py` | 5 seconds |

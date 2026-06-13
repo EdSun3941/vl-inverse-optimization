@@ -1,0 +1,46 @@
+{
+ "meta": {
+  "scenario": "age=3 d, target=45 MPa (sparse constrained region)",
+  "verifier_rmse_mpa": 5.39,
+  "restarts": 20,
+  "note": "max measured strength at age=3 is 41.6 MPa"
+ },
+ "target": 45.0,
+ "unconstrained_knn": {
+  "strength": 45.08,
+  "age": 56.0,
+  "constraint_satisfied": false
+ },
+ "constrained_knn": {
+  "n_eligible": 134,
+  "best_strength": 41.64,
+  "max_strength_at_age": 41.64,
+  "gap_to_target": 3.36,
+  "n_within_2MPa": 0
+ },
+ "vl": {
+  "pred_mean": 43.026,
+  "pred_std": 4.757,
+  "ver_mean": 38.324,
+  "ver_std": 10.109,
+  "rate_surrogate_within_1MPa": 0.85,
+  "rate_verifier_beats_retrieval_cap": 0.4,
+  "best": {
+   "pred": 45.0,
+   "verifier": 47.757,
+   "age": 3.0,
+   "knn_strength": 57.97,
+   "knn_dist": 1.421,
+   "mix": [
+    236.4,
+    161.0,
+    10.2,
+    151.6,
+    9.9,
+    1110.5,
+    827.1,
+    3.0
+   ]
+  }
+ }
+}

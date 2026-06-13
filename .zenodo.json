@@ -1,6 +1,6 @@
 {
   "title": "Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation: Reproducibility Package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "upload_type": "software",
   "access_right": "open",
   "license": "cc-by-4.0",
@@ -31,7 +31,7 @@
       "affiliation": "Department of Biomedical Engineering, National Taiwan University; Department of Orthopaedics, National Taiwan University Hospital"
     }
   ],
-  "description": "Reproducibility package for the manuscript \"Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation.\" The archive contains Python scripts, UCI-derived CSV datasets, and JSON result logs for the real-data experiments, robotic-arm benchmark, and sequential-update ablation reported in the manuscript.",
+  "description": "Reproducibility package for the manuscript \"Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation.\" The archive contains Python scripts, UCI-derived CSV datasets, and JSON result logs for the real-data experiments, including the sparse-region concrete scenario, the robotic-arm benchmark, and the sequential-update ablation reported in the manuscript.",
   "keywords": [
     "inverse optimization",
     "input parameter recommendation",
