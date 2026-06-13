@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "budget_grad_steps": 600,
+  "restarts": 20,
+  "window": 6,
+  "x_dim": 3,
+  "surrogate": "MLP 24-128-128-1 ReLU on flattened history",
+  "surrogate_test_mse_std": 0.0015179683711624484,
+  "truth": "VARX a=[0.45,-0.2], 4-lag B, c=0.05, noise 0.01"
+ },
+ "results": {
+  "Sequential (Alg. 2)": [
+   {
+    "target": 0.5,
+    "sur_mean": 0.5,
+    "sur_std": 0.0002,
+    "true_mean": 0.3604,
+    "true_std": 0.055,
+    "time_s": 0.05
+   },
+   {
+    "target": 0.0,
+    "sur_mean": -0.0009,
+    "sur_std": 0.004,
+    "true_mean": -0.0447,
+    "true_std": 0.0271,
+    "time_s": 0.05
+   },
+   {
+    "target": -0.5,
+    "sur_mean": -0.5007,
+    "sur_std": 0.0033,
+    "true_mean": -0.5134,
+    "true_std": 0.0467,
+    "time_s": 0.05
+   }
+  ],
+  "Joint": [
+   {
+    "target": 0.5,
+    "sur_mean": 0.5,
+    "sur_std": 0.0,
+    "true_mean": 0.534,
+    "true_std": 0.074,
+    "time_s": 0.05
+   },
+   {
+    "target": 0.0,
+    "sur_mean": 0.0,
+    "sur_std": 0.0,
+    "true_mean": -0.0132,
+    "true_std": 0.0565,
+    "time_s": 0.05
+   },
+   {
+    "target": -0.5,
+    "sur_mean": -0.5,
+    "sur_std": 0.0,
+    "true_mean": -0.5777,
+    "true_std": 0.078,
+    "time_s": 0.05
+   }
+  ],
+  "Stable broadcast": [
+   {
+    "target": 0.5,
+    "sur_mean": 0.5,
+    "sur_std": 0.0,
+    "true_mean": 0.4888,
+    "true_std": 0.0091,
+    "time_s": 0.06
+   },
+   {
+    "target": 0.0,
+    "sur_mean": -0.0,
+    "sur_std": 0.0,
+    "true_mean": -0.0181,
+    "true_std": 0.0164,
+    "time_s": 0.06
+   },
+   {
+    "target": -0.5,
+    "sur_mean": -0.5,
+    "sur_std": 0.0,
+    "true_mean": -0.5288,
+    "true_std": 0.0084,
+    "time_s": 0.06
+   }
+  ]
+ }
+}

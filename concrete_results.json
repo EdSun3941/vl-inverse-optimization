@@ -1,0 +1,49 @@
+{
+ "meta": {
+  "dataset": "UCI Concrete Compressive Strength (Yeh, 1998)",
+  "n": 1030,
+  "columns": ["cement", "slag", "ash", "water", "superplastic", "coarseagg", "fineagg", "age"],
+  "split": "70/15/15",
+  "surrogate": "MLP 8-128-128-128-1 ReLU",
+  "verifier": "MLP 8-96x4-1 ReLU (independent split/seed)",
+  "rmse_sur_mpa": 5.857,
+  "rmse_ver_mpa": 5.391,
+  "lo": [102.0, 0.0, 0.0, 121.8, 0.0, 801.0, 594.0, 1.0],
+  "hi": [540.0, 359.4, 200.1, 247.0, 32.2, 1145.0, 992.6, 365.0],
+  "inverse_iters": 800,
+  "restarts": 20,
+  "runtime_s": 2.3
+ },
+ "results": [
+  {
+   "scenario": "T30_free", "target": 30.0,
+   "pred_mean": 30.0, "pred_std": 0.0, "ver_mean": 35.4, "ver_std": 5.561, "restarts": 20,
+   "best": {"x": [197.56, 118.09, 48.12, 175.3, 10.88, 1013.01, 741.99, 32.07],
+            "pred": 30.0, "verifier": 34.669, "knn_strength": 36.99, "knn_dist": 1.264}
+  },
+  {
+   "scenario": "T50_free", "target": 50.0,
+   "pred_mean": 50.0, "pred_std": 0.0, "ver_mean": 49.516, "ver_std": 5.41, "restarts": 20,
+   "best": {"x": [225.94, 127.0, 93.9, 172.9, 5.47, 1032.18, 755.7, 51.54],
+            "pred": 50.0, "verifier": 43.662, "knn_strength": 46.88, "knn_dist": 0.947}
+  },
+  {
+   "scenario": "T70_free", "target": 70.0,
+   "pred_mean": 70.0, "pred_std": 0.0, "ver_mean": 64.543, "ver_std": 9.973, "restarts": 20,
+   "best": {"x": [304.32, 133.39, 136.85, 159.3, 8.71, 1071.54, 812.77, 66.58],
+            "pred": 70.0, "verifier": 64.843, "knn_strength": 56.33, "knn_dist": 1.645}
+  },
+  {
+   "scenario": "T50_age28", "target": 50.0,
+   "pred_mean": 49.387, "pred_std": 2.672, "ver_mean": 47.075, "ver_std": 6.501, "restarts": 20,
+   "best": {"x": [259.01, 138.76, 143.13, 162.27, 5.15, 1033.11, 786.65, 28.0],
+            "pred": 50.0, "verifier": 45.347, "knn_strength": 39.99, "knn_dist": 1.355}
+  },
+  {
+   "scenario": "T40_age28_noFlyAsh", "target": 40.0,
+   "pred_mean": 40.0, "pred_std": 0.0, "ver_mean": 41.185, "ver_std": 4.57, "restarts": 20,
+   "best": {"x": [256.6, 118.37, 0.0, 172.98, 8.49, 1022.71, 810.8, 28.0],
+            "pred": 40.0, "verifier": 41.393, "knn_strength": 39.64, "knn_dist": 0.946}
+  }
+ ]
+}
