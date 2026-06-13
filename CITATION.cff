@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived release and the associated manuscript."
+title: "Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation: Reproducibility Package"
+type: software
+version: 1.0.1
+date-released: 2026-06-13
+url: "https://github.com/EdSun3941/vl-inverse-optimization"
+license: CC-BY-4.0
+authors:
+  - family-names: Lin
+    given-names: Frank Yeong-Sung
+    affiliation: "Department of Information Management, National Taiwan University"
+  - family-names: Sun
+    given-names: Tzu-Lung
+    affiliation: "Department of Information Management, National Taiwan University"
+  - family-names: Chen
+    given-names: Jyun-Hong
+    affiliation: "Department of Information Management, National Taiwan University"
+  - family-names: Chen
+    given-names: Tsung-Chi
+    affiliation: "MetaTech (AP) Inc."
+  - family-names: Yang
+    given-names: Ying-Chen
+    affiliation: "MetaTech (AP) Inc."
+  - family-names: Lu
+    given-names: Tung-Wu
+    affiliation: "Department of Biomedical Engineering, National Taiwan University; Department of Orthopaedics, National Taiwan University Hospital"

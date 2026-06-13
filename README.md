@@ -4,6 +4,20 @@ This repository contains the reproducible experiment package for the manuscript 
 The scripts reproduce the real-data experiments, the robotic-arm benchmark, and
 the sequential-update ablation reported in the paper.
 
+## Archived release
+
+The reproducibility package is archived as GitHub release `v1.0.1`.
+
+Release page:
+https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.1
+
+## Citation and license
+
+Citation metadata is provided in `CITATION.cff`, and Zenodo metadata is provided
+in `.zenodo.json`. Unless otherwise noted, this repository is released under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0). The
+included UCI datasets are redistributed under their source CC BY 4.0 licenses.
+
 ## Directory contents
 
 | File | Description |

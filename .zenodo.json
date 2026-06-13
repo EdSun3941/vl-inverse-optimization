@@ -1,0 +1,50 @@
+{
+  "title": "Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation: Reproducibility Package",
+  "version": "1.0.1",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Lin, Frank Yeong-Sung",
+      "affiliation": "Department of Information Management, National Taiwan University"
+    },
+    {
+      "name": "Sun, Tzu-Lung",
+      "affiliation": "Department of Information Management, National Taiwan University"
+    },
+    {
+      "name": "Chen, Jyun-Hong",
+      "affiliation": "Department of Information Management, National Taiwan University"
+    },
+    {
+      "name": "Chen, Tsung-Chi",
+      "affiliation": "MetaTech (AP) Inc."
+    },
+    {
+      "name": "Yang, Ying-Chen",
+      "affiliation": "MetaTech (AP) Inc."
+    },
+    {
+      "name": "Lu, Tung-Wu",
+      "affiliation": "Department of Biomedical Engineering, National Taiwan University; Department of Orthopaedics, National Taiwan University Hospital"
+    }
+  ],
+  "description": "Reproducibility package for the manuscript \"Virtual Layer Inverse Optimization for Engineering Input Parameter Recommendation.\" The archive contains Python scripts, UCI-derived CSV datasets, and JSON result logs for the real-data experiments, robotic-arm benchmark, and sequential-update ablation reported in the manuscript.",
+  "keywords": [
+    "inverse optimization",
+    "input parameter recommendation",
+    "virtual layer",
+    "engineering applications",
+    "neural surrogate models",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/EdSun3941/vl-inverse-optimization",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
