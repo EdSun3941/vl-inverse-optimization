@@ -11,6 +11,9 @@ The reproducibility package is archived as GitHub release `v1.0.3`.
 Release page:
 https://github.com/EdSun3941/vl-inverse-optimization/releases/tag/v1.0.3
 
+Zenodo version DOI:
+https://doi.org/10.5281/zenodo.20680582
+
 Zenodo concept DOI:
 https://doi.org/10.5281/zenodo.20680511
 

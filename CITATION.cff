@@ -5,7 +5,7 @@ type: software
 version: 1.0.3
 date-released: 2026-06-13
 url: "https://github.com/EdSun3941/vl-inverse-optimization"
-doi: 10.5281/zenodo.20680511
+doi: 10.5281/zenodo.20680582
 license: CC-BY-4.0
 authors:
   - family-names: Lin
